@@ -1,8 +1,11 @@
 # betterCallHex Homebrew tap
 
 ```sh
+brew trust --tap betterCallHex/tap
 brew install --cask betterCallHex/tap/awake
 ```
+
+Homebrew 7+ only loads third-party taps you trust; skip the first line on older Homebrew.
 
 | Cask | Description |
 | --- | --- |

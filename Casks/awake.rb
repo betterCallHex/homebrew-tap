@@ -4,7 +4,7 @@ cask "awake" do
 
   url "https://github.com/betterCallHex/awake/releases/download/v#{version}/Awake-#{version}.dmg"
   name "Awake"
-  desc "Menu bar app that keeps your Mac awake"
+  desc "Menu bar toggle that keeps the computer from sleeping"
   homepage "https://github.com/betterCallHex/awake"
 
   livecheck do
@@ -12,14 +12,9 @@ cask "awake" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Awake.app"
-
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Awake.app"]
-  end
 
   uninstall quit:       "local.awake",
             login_item: "Awake"
