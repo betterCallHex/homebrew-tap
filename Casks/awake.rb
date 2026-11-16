@@ -1,6 +1,6 @@
 cask "awake" do
-  version "1.1.1"
-  sha256 "cb5c0e67401f9934de44e7de085e1fa7a81c2c2d6141986a3bbbdae333ee4a76"
+  version "1.1.2"
+  sha256 "255c16d4b51153034002fb91a98679c9a513e03176f3f750e95d370b3ac1fa44"
 
   url "https://github.com/betterCallHex/awake/releases/download/v#{version}/Awake-#{version}.dmg"
   name "Awake"
