@@ -28,6 +28,7 @@ class PressureGuard < Formula
   service do
     run opt_bin/"pressure-guard"
     keep_alive true
+    process_type :interactive
     log_path var/"log/pressure-guard.log"
     error_log_path var/"log/pressure-guard.log"
   end
