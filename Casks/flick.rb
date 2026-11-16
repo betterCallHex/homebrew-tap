@@ -1,6 +1,6 @@
 cask "flick" do
-  version "0.4.0"
-  sha256 "b0cdd99334a3aefca47c9e6f882df17ceae75034c42d048a87a4db03e2512d3d"
+  version "0.5.0"
+  sha256 "c57e81b396a611e0b8c1485e101d0da36ea1bfeafbb6ddf451dc4286739b6a10"
 
   url "https://github.com/betterCallHex/flick/releases/download/v#{version}/Flick-#{version}.dmg"
   name "Flick"
