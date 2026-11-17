@@ -1,8 +1,8 @@
 class PressureGuard < Formula
   desc "Keeps a Mac responsive while many coding agents run, without limiting them"
   homepage "https://github.com/betterCallHex/pressure-guard"
-  url "https://github.com/betterCallHex/pressure-guard/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "dcf7d59f4c876b631aca64bb2e38e149ecb8fc87e4a84599aa5629ce339b27a9"
+  url "https://github.com/betterCallHex/pressure-guard/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "8ea7865b78d81690b410763cd13d607590a551acbaa272a7ffa700158e302803"
 
   livecheck do
     url :stable
