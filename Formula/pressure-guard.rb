@@ -1,8 +1,8 @@
 class PressureGuard < Formula
-  desc "Slows macOS background services under memory pressure or heat, never your apps"
+  desc "Keeps a Mac responsive while many coding agents run, without limiting them"
   homepage "https://github.com/betterCallHex/pressure-guard"
-  url "https://github.com/betterCallHex/pressure-guard/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "d2bced18ab914c73c0fc62d137dcdf7d18380a8397832aa7a4a19d46af549e70"
+  url "https://github.com/betterCallHex/pressure-guard/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "dcf7d59f4c876b631aca64bb2e38e149ecb8fc87e4a84599aa5629ce339b27a9"
 
   livecheck do
     url :stable
